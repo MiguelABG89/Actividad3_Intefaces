@@ -3,7 +3,7 @@ function Calculadora({valor1Changed,valor2Changed,operadorChanged}){
 
     return(
         <div>
-            <input onChange={valor1Changed} />
+            <input type="number" onChange={valor1Changed} />
             <select onChange={operadorChanged}>
                 <option value={""} ></option>
                 <option value={"+"} >+</option>
